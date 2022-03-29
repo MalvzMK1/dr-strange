@@ -1,0 +1,72 @@
+main {
+    /* background-color: blueviolet; */
+    flex-grow: 1;
+    display: flex;
+}
+
+.content-container {
+    /* background-color: brown; */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.content-container h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 8rem;
+    line-height: 4.5rem;
+    color: #fff;
+}
+
+.movie-title {
+    font-style: italic;
+    font-size: 3.1rem;
+    color: var(--accent-color);
+}
+
+.movie-text {
+    font-weight: lighter;
+    width: 600px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.button {
+    height: 80px;
+    width: 300px;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.content-container h1 span {
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+/* .doctor {
+    font-size: 2.2rem;
+}
+
+.multiverse {
+    font-size: 3rem;
+    font-style: italic;
+}
+
+.content-container p {
+    font-size: 1.1rem;
+} */
+
+.social-container {
+    background-color: crimson;
+    width: 48px;
+}

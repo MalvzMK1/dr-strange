@@ -1,3 +1,7 @@
+:root {
+    --accent-color: #FF031A;
+}
+
 body {
     height: 100vh;
     /* background-image: url(../img/background.png); */
@@ -9,16 +13,5 @@ body {
     background-blend-mode: darken;
     display: flex;
     flex-direction: column;
-}
-
-header {
-    background-color: tomato;
-}
-
-main {
-    background-color: blueviolet;
-}
-
-footer {
-    background-color: chartreuse;
+    padding: 0 128px;
 }
