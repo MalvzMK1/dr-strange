@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    /* background-image: url(../img/background.png); */
+    background: linear-gradient(90deg, #000, #000E 30%, #000A 50%, #0000), 
+                url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: tomato;
+}
+
+main {
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: chartreuse;
+}
