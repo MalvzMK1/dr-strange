@@ -19,6 +19,7 @@ main {
     flex-direction: column;
     font-size: 8rem;
     line-height: 4.5rem;
+    font-weight: 400;
     color: #fff;
 }
 
@@ -29,7 +30,7 @@ main {
 }
 
 .movie-text {
-    font-weight: lighter;
+    font-weight: 200;
     width: 600px;
     font-size: 1.1rem;
     color: #fff;
@@ -53,20 +54,39 @@ main {
     font-weight: 200;
 }
 
-/* .doctor {
-    font-size: 2.2rem;
-}
-
-.multiverse {
-    font-size: 3rem;
-    font-style: italic;
-}
-
-.content-container p {
-    font-size: 1.1rem;
-} */
-
-.social-container {
-    background-color: crimson;
+.social-content {
     width: 48px;
+}
+
+.social-content ul {
+    height: 100%;
+    width: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-content a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    border: solid 2px #fff;
+    border-radius: 50%;
+    transition: 400ms all ease;
+}
+
+.social-content i {
+    font-size: 1.5rem;
+}
+
+.social-content a:hover {
+    border: solid 2px var(--accent-color);
+    background-color: var(--accent-color);
+    transform: translateY(-5px);
+    transform: rotate(10deg);
+    cursor: pointer;
 }
