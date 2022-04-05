@@ -1,3 +1,3 @@
 # dr-strange
 
-<img src="https://img.shields.io/badge/Em-Andamento-green">
+<img text-align="center" src="https://img.shields.io/badge/Em-Andamento-green">
