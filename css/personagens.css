@@ -91,7 +91,7 @@ main {
 
 .desc {
     font-family: 'Mulish', sans-serif;
-    font-weight: ;
+    font-weight: 200;
     color: #f5f5f5;
 }
 
@@ -103,7 +103,7 @@ main {
     body {
         padding: 0 30px;
         background-color: #0009;
-        background-image: url(../img/background.png);
+        background-image: url(../img/bg-personagens.png);
         background-blend-mode: darken;
         background-position: 90%;
     }
