@@ -2,7 +2,7 @@ body {
     height: 100vh;
     /* background-image: url(../img/background.png); */
     background: linear-gradient(180deg, #000, #000A 40%, #0000), 
-                url(../img/drStrange-bg.png);
+                url(../img/bg-galeria.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
