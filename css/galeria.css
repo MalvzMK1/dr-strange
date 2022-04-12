@@ -53,3 +53,13 @@ main {
     border-left: 5px solid var(--accent-color);
     transform: scale(1.1);
 }
+
+@media (max-width:768px) {
+    body {
+        padding: 0 30px;
+        background-color: #0009;
+        background-image: url(../img/bg-galeria.png);
+        background-blend-mode: darken;
+        background-position: 50%;
+    }
+}
