@@ -50,11 +50,16 @@ main {
     height: 440px;
     width: 270px;
     background-color: #000;
+    transition: 400ms;
 }
 
 .card img {
     height: 300px;
     width: 270px;
+}
+
+.card:hover {
+    transform: translateY(-15px);
 }
 
 .card:hover .line {
