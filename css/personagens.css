@@ -27,6 +27,7 @@ main {
 }
 
 .page-title {
+    margin-top: 20px;
     font-family: 'Mulish', sans-serif;
     display: flex;
     flex-direction: column;
