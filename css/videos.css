@@ -54,11 +54,11 @@ main {
     }
     
     .page-title {
-        font-size: 5rem;
+        font-size: 3.5rem;
     }
 
     .video {
-        margin-top: 200px;
+        margin-top: 150px;
         height: 30vh;
         width: 90vw;
     }
