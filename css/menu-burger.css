@@ -1,9 +1,9 @@
 .menu-burger-container {
     height: 36px;
     width: 36px;
-    display: flex;
+    display: none;
+    position: relative;
     align-items: center;
-    /* background-color: aqua; */
 }
 
 .menu-burger::before,
@@ -26,14 +26,21 @@
     transform: translateY(16px);
 }
 
-.menu-burger-container:hover .menu-burger{
+.menu-burger-container.show .menu-burger{
     background-color: transparent;
 }
 
-.menu-burger-container:hover .menu-burger::before{
+.menu-burger-container.show .menu-burger::before{
     transform: rotate(225deg);
 }
 
-.menu-burger-container:hover .menu-burger::after{
+.menu-burger-container.show .menu-burger::after{
     transform: rotate(-225deg);
+}
+
+@media (max-width: 768px) {
+    .menu-burger-container{
+        display: flex;
+        z-index: 1;
+    }
 }
