@@ -1,0 +1,39 @@
+.menu-burger-container {
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.menu-burger::before,
+.menu-burger,
+.menu-burger::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 4px;
+    width: 36px;
+    background-color: #fff;
+    transition: all 400ms ease;
+}
+
+.menu-burger::before {
+    transform: translateY(-16px);
+}
+
+.menu-burger::after {
+    transform: translateY(16px);
+}
+
+.menu-burger-container:hover .menu-burger{
+    background-color: transparent;
+}
+
+.menu-burger-container:hover .menu-burger::before{
+    transform: rotate(225deg);
+}
+
+.menu-burger-container:hover .menu-burger::after{
+    transform: rotate(-225deg);
+}
