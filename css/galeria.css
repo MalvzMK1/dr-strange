@@ -40,7 +40,10 @@ main {
 .cards-imgs {
     margin-top: 134px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
+    width: 100%;
 }
 
 .card{
@@ -54,7 +57,7 @@ main {
     transform: scale(1.1);
 }
 
-@media (max-width:768px) {
+@media (max-width:1145px) {
     body {
         padding: 0 30px;
         background-color: #0009;
@@ -65,5 +68,13 @@ main {
 
     .page-title {
         font-size: 3rem;
+    }
+
+    .cards-imgs {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        height: 150px;
     }
 }
