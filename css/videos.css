@@ -40,7 +40,7 @@ main {
 .video {
     margin-top: 58px;
     height: 445px;
-    width: 1080px;
+    width: 90%;
     border: 5px solid var(--accent-color);
 }
 
