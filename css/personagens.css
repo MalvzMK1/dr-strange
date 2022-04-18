@@ -112,7 +112,12 @@ main {
     }
 
     .page-title {
-        font-size: 3rem;
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    .main-content {
+        padding-top: 0;
     }
 
     .grid-container {
@@ -123,6 +128,7 @@ main {
     }
 
     .cards-personagens {
+        margin-top: 30px;
         display: grid;
         grid-template-columns: 150px 150px;
     }

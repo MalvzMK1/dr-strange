@@ -28,6 +28,8 @@ header {
 @media (max-width:768px) {
     header {
         height: 70px;
+        display: flex;
+        align-items: center;
     }
     
     .links-container {
