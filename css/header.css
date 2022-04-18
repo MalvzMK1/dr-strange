@@ -45,6 +45,7 @@ header {
         gap: 64px;
         transform: translateX(100%);
         transition: all 400ms ease;
+        z-index: 100;
     }
 
     .menu-burger-container.show ~ .links-container { 

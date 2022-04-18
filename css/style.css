@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0 128px;
-    animation: zoom 2s;
+    animation: zoom 1s;
 }
 
 @media (max-width:768px) {

@@ -62,4 +62,8 @@ main {
         background-blend-mode: darken;
         background-position: 50%;
     }
+
+    .page-title {
+        font-size: 3rem;
+    }
 }
