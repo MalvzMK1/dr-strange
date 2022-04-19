@@ -1,6 +1,5 @@
 body {
     height: 100vh;
-    /* background-image: url(../img/background.png); */
     background: linear-gradient(180deg, #000, #000A 40%, #0000), 
                 url(../img/bg-videos.png);
     background-repeat: no-repeat;
