@@ -6,7 +6,7 @@ Projeto construido durante as aulas de LIMA, no curso de desenvolvimento de sist
 ![](./img/preview-imgs/WEB.png)
 
 <div align="center">
-    <img src="./img/preview-imgs/mobile.png" width="49.5%">
+    <img src="./img/preview-imgs/Mobile.png" width="49.5%">
     <img src="./img/preview-imgs/mobile-menu.png" width="49.5%">
 </div>
 
@@ -36,8 +36,8 @@ Landing pages são páginas com goco principal na conversão de visitantes, assi
 ## Links
 
 <a href="https://malvzmk1.github.io/dr-strange/" style="background-color: red; color: white;
-padding: 10px; border-radius: 0px 20px;">Acesse o Site!</a>
+padding: 10px; border-radius: 0px 20px;">Acesse o Site!</a> <br>
 <a href="https://www.figma.com/file/ENs28M3ICC1LZIuYUaGAE1/Dr.-Estranho---Landing-Page?node-id=8%3A30" style="background-color: red; color: white;
-padding: 10px; border-radius: 0px 20px;">Projeto no Figma</a>
+padding: 10px; border-radius: 0px 20px;">Projeto no Figma</a> <br>
 <a href="https://github.com/MalvzMK1/dr-strange/" style="background-color: red; color: white;
 padding: 10px; border-radius: 0px 20px;">Código</a>
